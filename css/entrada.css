@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+canvas{
+  display: block;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3D3F4D;
+    height: 100%;
+}
+.fundo{
+    margin-top: 4%;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+.back{
+    padding: 30px 0px 20px 0px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+div#bloco{
+    margin-top: 0.5%;
+}
+label{
+    margin-bottom: 0.2rem !important;
+}
+/* Formulário */
+.entrada-title{
+    color: #0c3d63;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    margin-top: -10px;
+}
+.perfil-img{
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: 20px auto 20px auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox { margin-bottom: 10px;}
+.form-signin .checkbox {font-weight: normal;}
+.form-signin .form-control{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus {z-index: 2;}
+
+.form-signin input[type="password"]input[type=text],article input[type=email] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.help{
+    padding-top: 5px;
+}
+.precisa-ajuda{
+    margin-top: 10px;
+    float: right;
+}
+.nova-conta{ 
+    margin-top: 10px;
+    float: left;
+}
+
+/* ---- particles.js container ---- */
+#particles-js{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #004e92;
+  background-image: -webkit-linear-gradient(left bottom, #022743, #0c3d63);
+  background-image: linear-gradient(left bottom, #022743, #0c3d63);
+}
+
+/* Barra de Rolagem */
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+@media screen and (max-width:640px) {
+    ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+    }
+    ::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+    background-color:#cfd8dc;
+    }
+}
+
+
+/* 
+Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px){
+    .fundo{
+        margin-top: 0px;
+    }
+    div#bloco{
+        margin-top: 0%;
+    }
+}
+
+

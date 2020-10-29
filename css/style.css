@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto|Varela+Round');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Viga');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Kosugi|Noto+Serif+JP');
+
+
+/* 
+CORES BASE: #022743 #0c3d63
+font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee !important;
+}
+input{
+    color:#fff;
+}
+.bg-claro{
+    background-color: #0c3d63;
+    color: #fff !important;
+}
+.bg-escuro{
+    background-color: #022743;
+    color: #fff !important;
+}
+.bg-gradiente{
+    background-color: #004e92;
+    background-image: -webkit-linear-gradient(left bottom, #022743, #0c3d63);
+    background-image: linear-gradient(left bottom, #022743, #0c3d63);
+}
+.light-blue{
+    background-color: #40c4ff !important;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 2px;
+}
+
+/*----- NAVEGAÇÃO DO TOPO ------*/
+.navbar-brand img{
+    width: 40px;
+    float: left;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.navbar-brand span#texto, span#if{
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.navbar-brand span#if{
+    font-weight: bolder;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.6);
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all .3s ease-out;
+}
+
+/* ----- COLORS-LINE ------*/
+.colors-line{
+    width: 100%;
+    height: 3px;
+    float: left;
+    padding-top: 74px;
+    position: fixed;
+    background-image: url(../img/colors-line.png);
+    z-index: 1000;
+}
+
+/* -------- PAGINA PRINCIPAL ---------- */
+section#servico{
+    padding-top: 120px;
+}
+.servico-caption, .servico-link{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow .25s;
+}
+#servico .servico-item {
+  margin: 0 0 20px;
+  right: 0;
+}
+#servico .servico-item .servico-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#servico .servico-item .servico-link .servico-hover {
+  background: rgba(12, 61, 99, 0.8);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#servico .servico-item .servico-link .servico-hover:hover {
+  opacity: 1;
+}
+#servico .servico-item .servico-link .servico-hover .servico-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#servico .servico-item .servico-link .servico-hover .servico-hover-content i {
+  margin-top: -12px;
+}
+#servico .servico-item .servico-link .servico-hover .servico-hover-content h3,
+#servico .servico-item .servico-link .servico-hover .servico-hover-content h5 {
+  margin: 0;
+}
+#servico .servico-item .servico-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+}
+#servico .servico-item .servico-caption h5 {
+  text-transform: none;
+  margin: 0;
+  font-weight: bold;
+}
+#servico .servico-item .servico-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin: 0;
+}
+#servico * {
+  z-index: 2;
+}
+
+/* ----- ROLAGEM PARA O TOPO ----- */
+.smoothscroll-top {
+    position:fixed;
+    opacity:0;
+    visibility:hidden;
+    overflow:hidden;
+    text-align:center;
+    z-index:99;
+    background-color: #40c4ff;
+    color:#fff;
+    width:47px;
+    height:44px;
+    line-height:44px;
+    right:5px;
+    bottom:-17px;
+    border-radius:5px;
+    transition:all 0.5s ease-in-out;
+    transition-delay:0.2s;
+}
+.smoothscroll-top:hover {
+    background-color: rgba(0,0,0,0.30);
+    color:#fff;
+    transition:all 0.2s ease-in-out;
+    transition-delay:0s;
+}
+.smoothscroll-top.show {
+    visibility:visible;
+    cursor:pointer;
+    opacity:1;
+    bottom:17px;
+}
+.smoothscroll-top i.fas {
+    line-height:inherit;
+}
+
+/*-------- RODAPE ---------*/
+.colors-line-footer{
+    width: 100%;
+    height: 3px;
+    float: left;
+    position: relative;
+    background-image: url(../img/colors-line.png);
+    z-index: 1000;
+}
+footer {
+  color: white;
+}
+footer#fixed-bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer h4 {
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+footer .footer-above {
+  padding-top: 25px;
+  background-color: #0c3d63;
+  box-shadow: 0 0.25rem 0.125rem 0 rgba(0,0,0,0.05);
+}
+footer .footer-col {
+  margin-bottom: 20px;
+}
+footer .footer-below {
+  padding: 15px 0;
+  background-color: #022743;
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #40c4ff;
+  background: white;
+  border: solid 2px white;
+}
+.btn-social {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 2px solid white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 45px;
+}
+/* ------ Configuração do Modal ---------*/
+.modal-header{
+  background-color: #0c3d63;
+  color: #fff;
+  clear: both;
+}
+.modal-header h5{
+    font-weight: bolder;
+}
+.modal-body{
+  color: #000;
+  text-align: justify;
+}
+.modal-footer{
+  background-color: #EBEBEB;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* ------ BARRA DE ROLAGEM -----*/
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+@media screen and (max-width:640px) {
+    ::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+    }
+    ::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+    background-color:#cfd8dc;
+    }
+}
+
+/*------ PÁGINAS INTERNAS --------*/
+th{
+    font-size: 18px;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+div .titulo{
+    padding-bottom: 30px;
+}
+div#ger_title h3{
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: -15px;
+}
+caption{
+    padding-bottom: 1.3rem !important;
+    padding-left: 3px !important;
+}
+form#interno label{
+    font-weight: bold;
+}
+div#desenvolvedores{
+    padding-top: 25px;
+    margin-bottom: 45px;
+}
+div#downloads{
+    padding-top: 25px;
+    margin-bottom: 45px;
+}
+div#pdf a i.fas{
+    font-size: 4rem;
+}
+div#pdf a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000;
+}
+span#download{
+    padding-top: 10px;
+}
+div .card{
+    margin-right: 0px !important;
+}
+button#button-edit{
+    margin-top: 10px;
+}
+div#ss{
+    padding-top: 10px;
+}
+div#range{
+    padding-bottom: 15px;
+}
+
+/* --------- AJUSTE AOS DISPOSITIOS MENORES ------------- */
