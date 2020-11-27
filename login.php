@@ -22,7 +22,7 @@ else{
 		$_SESSION['senha'] = $senha;
 		$_SESSION['email'] = $dados['email'];
 		$_SESSION['cargo'] = $dados['cargo'];
-	    header("Location:principal.php");
+	    header("Location:principal.php"); // direciona para pagina principal apos login no sistema
 	}
 	die();
 }
