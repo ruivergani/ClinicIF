@@ -38,6 +38,7 @@ The following technologies were employed in the creation of this project:
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [PHP](https://www.php.net/)
+- [Bootstrap](https://getbootstrap.com/)
 - HTML, CSS, and MySQL.
 License
 
