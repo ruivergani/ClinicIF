@@ -1,17 +1,24 @@
-# Medical Clinic Software in PHP
+<p align="center">
+  <h1 align="center"><a href="">Medical Clinic Management System</a></h1>
+</p>
 
-This is software developed in PHP and boostrap using MySQL database to save data. The main aim of this software is to develop medical clinic product, the employee can update the system in order to register data into the student appointment with the doctor, the data can be saved into the database and accessed later if the employee or doctor needs. Medicines can also be registered into the system. 
+<p align="center" margin-top="25px" >
+  <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/ruivergani/ClinicIF" />
 
-Features:
-- CRUD (create, read, update and delete user data)
-- Student (create, read, update and delete new student)
-- Medical Appointment 
-- Employee
-- Medicine
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ruivergani/ClinicIF" />
+</p>
 
-This Software has been developed in portuguese, brazil. 
+PHP Management Software.
+___
 
-Created in 2019.
+## 💻 About
+
+The Medical Clinic Management System is a web-based application developed in PHP that facilitates the efficient management of patient records, appointments, medical history, and more for a medical clinic. This system provides clinic staff with the tools they need to streamline their administrative tasks and enhance patient care.
+
+___
+
+## 🎨 Layout
+The page in desktop format is seen in the image below:
 
 
 ![Screenshot 2022-10-03 at 21 05 31](https://user-images.githubusercontent.com/70537459/193669877-963729c9-744b-4485-9c25-5259efa401cc.png)
@@ -21,3 +28,56 @@ Created in 2019.
 ![Screenshot 2022-10-03 at 21 07 02](https://user-images.githubusercontent.com/70537459/193669968-82bd66f8-ca4b-45b4-9896-f97061491ca0.png)
 ![Screenshot 2022-10-03 at 21 07 09](https://user-images.githubusercontent.com/70537459/193669999-a7499006-1be8-4d84-abe0-6a38a5969dd5.png)
 ![Screenshot 2022-10-03 at 21 07 23](https://user-images.githubusercontent.com/70537459/193670026-72c589f9-e9a7-4e4b-bd6d-523c85c13a76.png)
+
+___
+
+## 🛠 Technologies
+
+The following technologies were employed in the creation of this project:
+
+- [GULP](https://gulpjs.com/)
+- [Swipper JS](https://swiperjs.com/)
+- [WordPress](https://wordpress.org/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [PHP](https://www.php.net/)
+- [SASS](https://sass-lang.com/)
+- HTML and CSS
+
+___
+
+## 🚀 How to use
+
+Clone the project to the desired location on your computer.
+
+```bash
+$ git clone git@github.com:ruivergani/onesureinsurance.git
+```
+___
+
+#### 🚧 Executing the project
+```bash
+
+# Navigate to the directory
+$ cd onesureinsurance
+
+# Install the necessary dependencies
+$ sudo yarn
+
+# Run the GULP command
+$ gulp
+
+# The terminal will display the local address where the application is running:
+
+  http://localhost:3000/
+
+```
+
+___
+
+[Check the final result here](https://www.onesureinsurance.co.uk/)
+
+___
+
+Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
+
+---
