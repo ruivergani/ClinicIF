@@ -35,13 +35,10 @@ ___
 
 The following technologies were employed in the creation of this project:
 
-- [GULP](https://gulpjs.com/)
-- [Swipper JS](https://swiperjs.com/)
-- [WordPress](https://wordpress.org/)
+
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [PHP](https://www.php.net/)
-- [SASS](https://sass-lang.com/)
-- HTML and CSS
+- HTML, CSS, and MySQL.
 
 ___
 
@@ -50,33 +47,8 @@ ___
 Clone the project to the desired location on your computer.
 
 ```bash
-$ git clone git@github.com:ruivergani/onesureinsurance.git
+$ git clone git@github.com:ruivergani/ClinicIF.git
 ```
-___
-
-#### 🚧 Executing the project
-```bash
-
-# Navigate to the directory
-$ cd onesureinsurance
-
-# Install the necessary dependencies
-$ sudo yarn
-
-# Run the GULP command
-$ gulp
-
-# The terminal will display the local address where the application is running:
-
-  http://localhost:3000/
-
-```
-
-___
-
-[Check the final result here](https://www.onesureinsurance.co.uk/)
-
-___
 
 Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
 
