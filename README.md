@@ -58,7 +58,7 @@ Modify the database connection details in config.php to match your database setu
 
 ___
 
-## 🚀 License
+## License
 
 This project is licensed under the [MIT License](https://opensource.org/license/mit/).
 ___
