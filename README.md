@@ -49,6 +49,11 @@ Clone the project to the desired location on your computer.
 ```bash
 $ git clone git@github.com:ruivergani/ClinicIF.git
 ```
+Configure your web server to point to the project directory.
+
+Import the included SQL file (database.sql) to set up the database schema.
+
+Modify the database connection details in config.php to match your database setup.
 
 Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
 
