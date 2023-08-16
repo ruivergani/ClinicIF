@@ -39,6 +39,7 @@ The following technologies were employed in the creation of this project:
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [PHP](https://www.php.net/)
 - HTML, CSS, and MySQL.
+License
 
 ___
 
@@ -54,6 +55,13 @@ Configure your web server to point to the project directory.
 Import the included SQL file (database.sql) to set up the database schema.
 
 Modify the database connection details in config.php to match your database setup.
+
+___
+
+## 🚀 License
+
+This project is licensed under the [MIT License](https://opensource.org/license/mit/).
+___
 
 Made with ❤️ by Rui Vergani Neto 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ruivergani/)
 
